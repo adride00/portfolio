@@ -1,0 +1,45 @@
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 36px;
+
+  @media screen and (max-width: 575px) {
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 600;
+  }
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 28px;
+
+  @media screen and (max-width: 575px) {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 600;
+  }
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28px;
+
+  @media screen and (max-width: 575px) {
+    font-size: 28px;
+    line-height: 12px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 22px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
