@@ -1,16 +1,23 @@
 ---
-
+import Layout from '../layouts/Layout.astro'
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Adrian Campos</title>
-	</head>
-	<body>
-		<h1 class="sasa">Astro</h1>
-	</body>
-</html>
+<Layout title="Adrian Campos" page="index" pageClass="homepage">
+	<section class="hero">
+		<div class="container">
+			<h1>Welcome to Astro</h1>
+			<p>Build faster websites with less client-side JavaScript</p>
+		</div>
+	</section>
+	<section class="features">
+		<div class="container">
+			<h1>Adrian Campos</h1>
+			<h2>Features</h2>
+			<ul>
+				<li>Blazing fast performance</li>
+				<li>Zero client-side JavaScript</li>
+				<li>SEO friendly</li>
+			</ul>
+		</div>
+	</section>
+</Layout>

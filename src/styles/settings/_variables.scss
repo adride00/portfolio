@@ -1,0 +1,19 @@
+$colors: (
+    "midnight-plum": #240046,
+    "deep-indigo": #10002b,
+    "royal-purple": #3c096c,
+    "amethyst-majesty": #5a189a,
+    "regal-orchid": #7b2cbf,
+    "lavender-luxe": #9d4edd,
+    "periwinkle-dream": #c77dff,
+    "soft-lilac": #e0aaff,
+);
+
+$color-midnight-plum: map-get($colors, 'midnight-plum');
+$color-deep-indigo: map-get($colors, 'deep-indigo');
+$color-royal-purple: map-get($colors, 'royal-purple');
+$color-amethyst-majesty: map-get($colors, 'amethyst-majesty');
+$color-regal-orchid: map-get($colors, 'regal-orchid');
+$color-lavender-luxe: map-get($colors, 'lavender-luxe');
+$color-periwinkle-dream: map-get($colors, 'periwinkle-dream');
+$color-soft-lilac: map-get($colors, 'soft-lilac');
